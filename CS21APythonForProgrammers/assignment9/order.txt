@@ -1,0 +1,3 @@
+{"name": "Joe", "bread": null, "cheese": null, "meat": "steak", "condiments": ["Lettuce"], "toasted": null}
+{"name": "Mary", "bread": null, "cheese": "cheddar", "meat": null, "condiments": ["Mayo"], "toasted": null}
+{"name": "Gary", "bread": "Sourdough", "cheese": null, "meat": null, "condiments": ["Horseradish"], "toasted": 1}
