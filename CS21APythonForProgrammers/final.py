@@ -54,6 +54,9 @@ class SavingsAccount (Account):
         return Account.__str__(self) + ", and the interest rate is " + str(self.interestRate)
 
 if __name__ == "__main__":
+    a = SavingsAccount()
+    a.deposit(4500)
+    print(int(a))
     # p1 = Point()
     # p2 = Point(0, 1)
     # p3 = Point(0, 17)
@@ -70,6 +73,4 @@ if __name__ == "__main__":
     # print(l3.length())
     # print(l3.length() == math.sqrt(2)) # Sqrt(2)
 
-    a = SavingsAccount()
-    a.deposit(4500)
-    print(int(a))
+    
